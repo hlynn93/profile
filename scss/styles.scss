@@ -1,11 +1,4 @@
 /*!
-    Title: Dev Portfolio Template
-    Version: 1.1.2
-    Last Change: 03/21/17
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
@@ -33,7 +26,7 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #48929B;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -153,7 +146,6 @@ header {
 
     ul {
         display: inline-block;
-        background: $background;
         text-align: center;
         padding: 10px;
         margin: 0;
@@ -167,7 +159,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: white;
         padding: 10px;
 
         &:hover {
@@ -178,7 +170,7 @@ header {
         }
 
         &:focus {
-            color: $base-color;
+            color: white;
             text-decoration: none;
         }
     }
