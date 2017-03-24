@@ -876,7 +876,7 @@ footer {
         box-shadow: none;
         border-radius: 0;
         width: 100%;
-        background: rgab(255,255,255, 0.9);
+        background: rgba(255,255,255, 0.9);
 
         li {
             display: block;
@@ -911,10 +911,6 @@ footer {
         h3, span {
             float: none;
         }
-    }
-
-    .project-image {
-        display: none;
     }
 
     .project-info {
